@@ -1,0 +1,38 @@
+//The shader that performs... the sex
+
+#pragma kernel CSMain
+
+#include "SharedBufferInit.cginc"
+#include "hash.cginc"
+
+float sigma;
+
+[numthreads(528,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= populationSize)  //return if the id doesn't coorespond with an individual in the population
+        return;
+    
+    //find mom and dad
+    int mom;
+    int dad;
+    if (id.x % 2 == 1) // Odd index
+    {
+        mom = tournamentWinners[id.x - 1];
+        dad = tournamentWinners[id.x];
+    }else // Even index
+    {
+        mom = tournamentWinners[id.x];
+        dad = tournamentWinners[id.x + 1];
+    }
+
+    for (int i = 0; i < dimension; i++)
+    {
+        //for each dimension axis, set the position of the child to a random combination of the parents position, using a thread safe hashing function
+        float momxi = populationBuffer[mom].position[i];
+        float dadxi = populationBuffer[dad].position[i];
+        float axisMutation = (hash(id.x + i * populationSize + dimension * populationSize) - 0.5f)*2.0f; //also mutate using the thread safe hasing function
+        childBuffer[id.x].position[i] = lerp(momxi, dadxi, hash(id.x + i * populationSize)) + axisMutation * sigma;
+    }
+    CalculateFitness(id.x, true); //calculate the fitness for the new child
+}

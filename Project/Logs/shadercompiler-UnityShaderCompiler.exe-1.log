@@ -1,0 +1,312 @@
+Base path: 'D:/UnityHub/Installs/6000.0.34f1/Editor/Data', plugins path 'D:/UnityHub/Installs/6000.0.34f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=686 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at CalculateFitness.compute(15): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at CalculateFitness.compute(25): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(25): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(27): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=14135
+
+Cmd: compileComputeKernel
+  insize=289 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=4112
+
+
+Cmd: compileComputeKernel
+  insize=867 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2775
+
+Cmd: compileComputeKernel
+  insize=686 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at CalculateFitness.compute(15): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at CalculateFitness.compute(25): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(25): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(27): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=27335
+
+Cmd: compileComputeKernel
+  insize=802 file=Assets/Tournament.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/hash.cginc(29): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at Tournament.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2539
+
+Cmd: compileComputeKernel
+  insize=289 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=7712
+
+
+Cmd: compileComputeKernel
+  insize=867 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2775
+
+Cmd: compileComputeKernel
+  insize=686 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at CalculateFitness.compute(15): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at CalculateFitness.compute(25): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(25): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(27): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=33935
+
+Cmd: compileComputeKernel
+  insize=802 file=Assets/Tournament.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/hash.cginc(29): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at Tournament.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2539
+
+Cmd: compileComputeKernel
+  insize=289 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=9512
+
+Cmd: compileComputeKernel
+  insize=814 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2727
+
+Cmd: compileComputeKernel
+  insize=404 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0 ok=1 outsize=481
+
+
+Cmd: compileComputeKernel
+  insize=814 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(32): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2727
+
+Cmd: compileComputeKernel
+  insize=278 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(32): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(10): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=33935
+
+Cmd: compileComputeKernel
+  insize=802 file=Assets/Tournament.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(32): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/hash.cginc(29): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at Tournament.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2539
+
+Cmd: compileComputeKernel
+  insize=289 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(32): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=9512
+
+Cmd: compileComputeKernel
+  insize=216 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(29): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(32): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=243
+
+
+Cmd: compileComputeKernel
+  insize=216 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=243
+
+Cmd: compileComputeKernel
+  insize=814 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2727
+
+Cmd: compileComputeKernel
+  insize=273 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(10): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=33935
+
+Cmd: compileComputeKernel
+  insize=802 file=Assets/Tournament.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/hash.cginc(29): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at Tournament.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2539
+
+Cmd: compileComputeKernel
+  insize=289 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=9512
+
+Cmd: compileComputeKernel
+  insize=887 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=36169
+
+Cmd: compileComputeKernel
+  insize=341 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=9687
+
+
+Cmd: compileComputeKernel
+  insize=216 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+ ok=1 outsize=243
+
+Cmd: compileComputeKernel
+  insize=887 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=3353
+
+Cmd: compileComputeKernel
+  insize=273 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at CalculateFitness.compute(10): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1119
+
+Cmd: compileComputeKernel
+  insize=802 file=Assets/Tournament.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/hash.cginc(29): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at Tournament.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2539
+
+Cmd: compileComputeKernel
+  insize=341 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=9687
+
+Cmd: compileComputeKernel
+  insize=1001 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(30): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(33): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PersistElites.compute(8): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at PersistElites.compute(8): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at PersistElites.compute(17): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=11336
+
+
+Cmd: compileComputeKernel
+  insize=1001 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(40): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(42): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PersistElites.compute(8): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at PersistElites.compute(8): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at PersistElites.compute(17): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=11336
+
+Cmd: compileComputeKernel
+  insize=851 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(40): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(42): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=36169
+
+Cmd: compileComputeKernel
+  insize=848 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(40): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(42): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=36169
+
+Cmd: compileComputeKernel
+  insize=1117 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(40): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(42): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PersistElites.compute(10): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at PersistElites.compute(10): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at PersistElites.compute(19): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=11336
+
+Cmd: compileComputeKernel
+  insize=1116 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'cos': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(36): 'pow': conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(40): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at Assets/SharedBufferInit.cginc(42): conversion from larger type to smaller, possible loss of data
+  error: 1 plat 4 at PersistElites.compute(10): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at PersistElites.compute(10): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at PersistElites.compute(19): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=11336
+
+
+Cmd: compileComputeKernel
+  insize=1117 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at PersistElites.compute(10): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at PersistElites.compute(10): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at PersistElites.compute(19): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=11336
+
+Cmd: compileComputeKernel
+  insize=848 file=Assets/Sex.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Sex.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=36017
+
+Cmd: compileComputeKernel
+  insize=239 file=Assets/CalculateFitness.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at CalculateFitness.compute(10): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=33783
+
+Cmd: compileComputeKernel
+  insize=802 file=Assets/Tournament.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at Assets/hash.cginc(29): integer modulus may be much slower, try using uints if possible.
+  error: 1 plat 4 at Tournament.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2539
+
+Cmd: compileComputeKernel
+  insize=341 file=Assets/PushChildren.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at PushChildren.compute(11): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=9687
+
+Cmd: compileComputeKernel
+  insize=848 file=Assets/Breed.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Breed.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=36017
+
+Cmd: compileComputeKernel
+  insize=947 file=Assets/Breed.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Breed.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=35453
+
+
+Cmd: compileComputeKernel
+  insize=1327 file=Assets/PersistElites.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at PersistElites.compute(10): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at PersistElites.compute(10): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at PersistElites.compute(19): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=11336
+
+Cmd: compileComputeKernel
+  insize=1291 file=Assets/Breed.compute kernel=CSMain ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=60000034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=50241 forceDXC=0 forceFXC=0  error: 1 plat 4 at (0): Program 'CSMain', warning X4714: sum of temp registers and indexable temp registers times 528 threads exceeds the recommended total 16384.  Performance may be reduced
+  error: 1 plat 4 at Breed.compute(13): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=35453
+
+Cmd: shutdown

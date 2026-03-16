@@ -1,0 +1,18 @@
+//helper shader to push the children into the population
+
+#pragma kernel CSMain
+
+#include "SharedBufferInit.cginc"
+
+
+[numthreads(528,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= populationSize)  //return if the id doesn't coorespond with an individual in the population
+        return;
+    
+    //simply replace the individual in the population buffer with the child
+    //the child now exists in both buffers, but that doesn't matter, as it will be replaced before next time this is ran
+    populationBuffer[id.x] = childBuffer[id.x];
+    fitnessBuffer[id.x] = childFitnessBuffer[id.x];
+}

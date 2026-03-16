@@ -1,0 +1,38 @@
+#pragma kernel CSMain
+
+#include "SharedBufferInit.cginc"
+
+static const int selectionSize = 16; //test between 16 parents to find the best of them
+
+[numthreads(528,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= populationSize / selectionSize)  //return if the id doesn't coorespond with an elite tournament round
+        return;
+    
+    //find the best parent and worst child from this row of 16 individuals
+    int bestWinnerFromSelection = id.x * selectionSize;
+    int worstChildFromSelection = id.x * selectionSize;
+    float bestWinnerFitness = 1000000000;
+    float worstChildFitness = 0;
+    
+    for (int i = id.x * selectionSize; i < (id.x + 1) * selectionSize; i++)
+    {
+        int winnerIndex = tournamentWinners[i];
+        float winnerFitness = fitnessBuffer[winnerIndex];
+        if (winnerFitness < bestWinnerFitness)
+        {
+            bestWinnerFitness = winnerFitness;
+            bestWinnerFromSelection = winnerIndex;
+        }
+
+        float childFitness = childFitnessBuffer[i];
+        if (childFitness > worstChildFitness)
+        {
+            worstChildFitness = childFitness;
+            worstChildFromSelection = i;
+        }
+    }
+    
+    childBuffer[worstChildFromSelection] = populationBuffer[bestWinnerFromSelection]; //Replace the worst child with the best parent
+}

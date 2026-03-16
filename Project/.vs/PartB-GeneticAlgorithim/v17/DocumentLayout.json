@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|d:\\unityhub\\projects\\partb-geneticalgorithim\\assets\\computemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\computemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\assets\\sharedbufferinit.cginc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\sharedbufferinit.cginc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|d:\\unityhub\\projects\\partb-geneticalgorithim\\assets\\persistelites.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\persistelites.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|d:\\unityhub\\projects\\partb-geneticalgorithim\\assets\\pushchildren.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\pushchildren.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\assets\\sex.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\sex.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\assets\\calculatefitness.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\calculatefitness.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\assets\\tournament.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\tournament.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\assets\\hash.cginc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B682169A-6EBB-0586-196B-F41D4CAC61F3}|Assembly-CSharp.csproj|solutionrelative:assets\\hash.cginc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PushChildren.compute",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\PushChildren.compute",
+              "RelativeDocumentMoniker": "Assets\\PushChildren.compute",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\PushChildren.compute",
+              "RelativeToolTip": "Assets\\PushChildren.compute",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-17T12:38:49.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersistElites.compute",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\PersistElites.compute",
+              "RelativeDocumentMoniker": "Assets\\PersistElites.compute",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\PersistElites.compute",
+              "RelativeToolTip": "Assets\\PersistElites.compute",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-17T12:27:18.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sex.compute",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\Sex.compute",
+              "RelativeDocumentMoniker": "Assets\\Sex.compute",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\Sex.compute",
+              "RelativeToolTip": "Assets\\Sex.compute",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-16T18:29:02.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "hash.cginc",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\hash.cginc",
+              "RelativeDocumentMoniker": "Assets\\hash.cginc",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\hash.cginc",
+              "RelativeToolTip": "Assets\\hash.cginc",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-16T18:12:42.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tournament.compute",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\Tournament.compute",
+              "RelativeDocumentMoniker": "Assets\\Tournament.compute",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\Tournament.compute",
+              "RelativeToolTip": "Assets\\Tournament.compute",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-16T18:07:06.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CalculateFitness.compute",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\CalculateFitness.compute",
+              "RelativeDocumentMoniker": "Assets\\CalculateFitness.compute",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\CalculateFitness.compute",
+              "RelativeToolTip": "Assets\\CalculateFitness.compute",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-16T17:18:52.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SharedBufferInit.cginc",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\SharedBufferInit.cginc",
+              "RelativeDocumentMoniker": "Assets\\SharedBufferInit.cginc",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\SharedBufferInit.cginc",
+              "RelativeToolTip": "Assets\\SharedBufferInit.cginc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-16T17:18:45.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComputeManager.cs",
+              "DocumentMoniker": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\ComputeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\ComputeManager.cs",
+              "ToolTip": "D:\\UnityHub\\Projects\\PartB-GeneticAlgorithim\\Assets\\ComputeManager.cs",
+              "RelativeToolTip": "Assets\\ComputeManager.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAQwJ4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:13:10.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

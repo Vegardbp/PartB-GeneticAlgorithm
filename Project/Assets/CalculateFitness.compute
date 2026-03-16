@@ -1,0 +1,14 @@
+//fitness calculation
+
+#pragma kernel CSMain
+
+#include "SharedBufferInit.cginc"
+
+[numthreads(528,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= populationSize) //return if the id doesn't coorespond with an individual in the population
+        return;
+    
+    CalculateFitness(id.x,false); //calculate the individuals fitness
+}

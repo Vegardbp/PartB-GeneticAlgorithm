@@ -1,0 +1,35 @@
+//the tournament
+
+#pragma kernel CSMain
+
+#include "SharedBufferInit.cginc" //get access to neccessary buffers
+#include "hash.cginc"
+
+[numthreads(528, 1, 1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= populationSize) //return if the id doesn't coorespond with an individual in the population
+        return;
+    
+    //get an array of 4 random competitors as indicies
+    int competitors[4];
+    for (int i = 0; i < 4; i++)
+        competitors[i] = hashIntRange(id.x + populationSize * i, 0, populationSize - 1); //select 4 random competitors
+
+    //find the fittest with comparison
+    int fittestIndex = competitors[0];
+    float fittestValue = fitnessBuffer[fittestIndex];
+    for (i = 1; i < 4; i++)
+    {
+        int index = competitors[i];
+        float fitness = fitnessBuffer[index];
+        if (fitness < fittestValue)
+        {
+            fittestIndex = index;
+            fittestValue = fitness;
+        }
+    }
+    
+    //set the fittest as the winner of this round
+    tournamentWinners[id.x] = fittestIndex;
+}
